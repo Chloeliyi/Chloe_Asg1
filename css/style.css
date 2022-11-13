@@ -62,6 +62,13 @@
     font-size: 18px;
   }
 
+  .members {
+    display: flex;
+  }
+
+  .members_info {
+    padding: 10px;
+  }
   
   @media (max-width: 576px) {
     .navbar {
