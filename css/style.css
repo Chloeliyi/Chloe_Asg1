@@ -1,3 +1,7 @@
+body {
+  background-color: lightcyan;
+}
+
 #logo {
     width: 180px;
 }
@@ -37,7 +41,7 @@
     display: none;
     position: absolute;
     background-color: gray;
-    width: 100%;
+    width: 467px;
     z-index: 1;
   }
 
@@ -58,7 +62,25 @@
     display: block;
   }
 
-  .nct_info p {
+  #nct_full {
+    margin: 15px;
+    width:500px;
+
+  }
+
+  .flex_container {
+    display: flex;
+    background-color: lightgray;
+    margin: 1%;
+    border-radius: 5px;
+  }
+
+  .flex_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .flex_content p {
     font-size: 18px;
   }
 
@@ -76,5 +98,15 @@
     }
     .dropdown {
       display: block;
+    }
+
+    .flex_container {
+      flex-direction: column;
+      padding: 1%;
+    }
+
+    #nct_full {
+      width: 400px;
+      padding-left: 10px;
     }
   }
