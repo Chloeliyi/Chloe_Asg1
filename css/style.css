@@ -136,17 +136,7 @@ body {
     width: 100%;
   }
   
-  #nct_taeil {
-    width: 300px;
-    height: 450px;
-  }
-
-  #nct_johnny {
-    width: 300px;
-    height: 450px;
-  }
-
-  #nct_taeyong {
+  .member_image {
     width: 300px;
     height: 450px;
   }
@@ -226,6 +216,10 @@ body {
     }
 
     .row_8 {
+      flex-direction: column;
+    }
+
+    .music_content {
       flex-direction: column;
     }
   }
