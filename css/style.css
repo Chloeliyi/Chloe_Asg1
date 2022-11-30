@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   background-color: #CAEAC8;
 }
 
-body h1, h2, h3, h4, p, li {
+body h1, h2, h3, h4, p, li, label {
   font-family: 'Arima Madurai', cursive;
 } 
 
@@ -93,6 +93,29 @@ body h1, h2, h3, h4, p, li {
     flex-direction: column;
     padding: 10px;
   }
+
+  .nct_yearbook {
+    margin: 1%;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+  }
+
+  .nct_yearbook::after {
+    display: block;
+    content: "";
+    padding-top: 56.25%;
+  }
+  
+  .nct_yearbook iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .flex_content p {
     font-size: 18px;
   }
@@ -250,6 +273,39 @@ body h1, h2, h3, h4, p, li {
     padding: 10px;
   }
 
+  .contact_heading {
+    text-align: center;
+  }
+
+  .fa:hover {
+    opacity: 0.9;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+}
+  
+  .fa-facebook {
+    background: #007bb5;
+    color: white;
+    border-radius: 7px;
+  }
+
+  .fa-twitter {
+    background: bisque;
+    color: #007bb5;
+    border-radius: 7px;
+  }
+
+  .fa-instagram {
+    background: purple;
+    color: white;
+    border-radius: 7px;
+  }
+
   #facebook {
     display: flex;
     flex-direction: column;
@@ -258,7 +314,7 @@ body h1, h2, h3, h4, p, li {
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    height: 360px;
+    height: 570px;
   }
 
   #twitter {
@@ -269,7 +325,7 @@ body h1, h2, h3, h4, p, li {
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    height: 360px;
+    height: 570px;
   }
   
   #insta {
@@ -280,7 +336,15 @@ body h1, h2, h3, h4, p, li {
     padding: 10px;
     padding-left: 100px;
     padding-right: 100px;
-    height: 360px;
+    height: 570px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 1%;
+    height: 50px;
   }
 
   @media (max-width: 576px) {
@@ -349,7 +413,7 @@ body h1, h2, h3, h4, p, li {
 
     #facebook {
       padding: 10px;
-  
+
     }
   
     #twitter {
