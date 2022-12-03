@@ -262,6 +262,10 @@ body h1, h2, h3, h4, p, li, label {
     text-align: center;
     font-size: 20px;
   }
+  .merch_image {
+    height: 300px;
+    width: 300px;
+  }
 
   .nct_merch {
     display: flex;
@@ -285,7 +289,6 @@ body h1, h2, h3, h4, p, li, label {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    background-color: aliceblue;
   }
 
   .merchcol_4 {
