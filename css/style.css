@@ -9,6 +9,12 @@ body h1, h2, h3, h4, p, li, label {
   font-family: 'Arima Madurai', cursive;
 } 
 
+button {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 15px;
+  width: 80px;
+}
+
 #logo {
     width: 180px;
 }
@@ -394,7 +400,7 @@ body h1, h2, h3, h4, p, li, label {
     width: 300px;
   }
 
-  .message_form {
+  #message_form {
     height: 100px;
     width: 300px;
   }
@@ -428,6 +434,7 @@ body h1, h2, h3, h4, p, li, label {
   .footer_navbar a:hover{
     background-color: #CAEAC8;
   }
+  
   @media (max-width: 576px) {
     .navbar {
       display: none;
