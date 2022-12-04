@@ -32,12 +32,16 @@ Resource Page: <br>
 The resource page contains information about NCT's different social media with another section containing a contact form. At the bottom is a footer with a link to the NCT fandom wiki and a second navigation menu.
 
 Existing Features: <br>
-.Feature 1 - Youtube video on index page that users can click to watch. <br>
-.Feature 2 - Photo gallery on members page that users can click to enlargen the image. <br>
-.Feature 3 - Contact form on resources page that users can fill out and click submit to receive a thank you message.
+.Feature 1 - Photo gallery on members page that users can click to enlargen the image. <br>
+.Feature 2 - Contact form on resources page that users can fill out and click submit to receive a thank you message. Form validation has also been done to check if fields are empty along with email address validation.
+
+Feature Ideas:
+.A search bar for users to be able to find what they want without having to scroll through the entire website.
 
 # Technologies Used
 
+.Javascript: <br>
+The project used javascript to print out a submit message for the form in the resources page along with validation for the fields to check if empty and to check if the email address format is correct.
 .Lightbox:
 https://lokeshdhakar.com/projects/lightbox2/
 
@@ -47,6 +51,14 @@ The project used lightbox in order to create a gallery for the members page wher
 The project used the font awesome icons for facebook, twitter and instagram in the resources page to link to social media accounts.
 
 # Testing
+
+Scenario: <br>
+1 -Contact Form: <br>
+-Go to the resources page
+-Try to submit the empty form and verify that an error alert about the required fields appears.
+-Try to submit the form with an invalid email address and verify that a relevant error alert appears.
+-Press the delete button and verify that the fields become empty.
+-Try to submit the form with all inputs valid and verify that a success alert appears along with a message.
 
 When the size of the screen goes down to 576 px, the navigation menu will become a dropdown menu where users can click to see the different links to pages. On the members, music and merch page, the different rows of information will become columns.
 
