@@ -53,12 +53,14 @@ The project used the font awesome icons for facebook, twitter and instagram in t
 # Testing
 
 Scenario: <br>
-1 -Contact Form: <br>
--Go to the resources page
--Try to submit the empty form and verify that an error alert about the required fields appears.
--Try to submit the form with an invalid email address and verify that a relevant error alert appears.
--Press the delete button and verify that the fields become empty.
--Try to submit the form with all inputs valid and verify that a success alert appears along with a message.
+1.Contact Form: <br>
+
+<ol>
+<li>Try to submit the empty form and verify that an error alert about the required fields appears.</li>
+<li>Try to submit the form with an invalid email address and verify that a relevant error alert appears.</li>
+<li>Press the delete button and verify that the fields become empty.</li>
+<li>Try to submit the form with all inputs valid and verify that a success alert appears along with a message. </li>
+</ol>
 
 When the size of the screen goes down to 576 px, the navigation menu will become a dropdown menu where users can click to see the different links to pages. On the members, music and merch page, the different rows of information will become columns.
 
