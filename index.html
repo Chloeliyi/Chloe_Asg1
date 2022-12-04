@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="normalize.css" type="text/css"/>
         <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.css"/>
         <title>Home</title>
     </head>
 
@@ -32,7 +33,8 @@
             </div>
         </nav> 
         <section class="flex_container">
-            <img id="nct_full" src="images/NCT_members.jpg" alt="NCT Members">
+            <a id ="nct_full" href="images/NCT_members.jpg" data-lightbox="gallery" data-title="NCT Members"><img id="nct_full" src="images/NCT_members.jpg" alt="NCT Members" /></a>
+            <p>
             <section class="flex_content">
                 <h1>History Of NCT</h1>
                 <article class="nct_info">
@@ -89,5 +91,6 @@
                 <a class ="footer-nav" href="resources.html">Resources</a>
             </nav> 
         </footer>
+        <script src="node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
     </body>
 </html>
