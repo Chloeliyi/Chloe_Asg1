@@ -71,14 +71,16 @@
         </section>
         <h1 class="contact_heading"><u>Contact Us</u></h1>
         <section class="contact">
-            <form action="">
+            <form name = "myForm" action="" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" class="contact_form" id="name" name="name"><br>
                 <label for="email">Email:</label><br>
                 <input type="email" class="contact_form" id="email" name="peremail"><br>
                 <label for="message">Message:</label><br>
-                <textarea class="message_form"></textarea><br>
-                <input type="submit" value="Submit">
+                <textarea id="message_form"></textarea><br>
+                <button type="button" onclick="myMessage(document.myForm.peremail)">Submit</button>
+                <button type="button" onclick="Delete()">Delete</button>
+                <p id="message"></p>
             </form>
         </section>
         <footer>
@@ -91,5 +93,6 @@
                 <a class ="footer-nav" href="resources.html">Resources</a>
             </nav> 
         </footer>
+        <script src="js/javascript.js"></script>
     </body>
 </html>
